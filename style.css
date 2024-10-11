@@ -1,0 +1,83 @@
+@import url();
+
+:root {
+    --cor-principal: #13131b;
+    --cor-secundaria: #020303;
+    --cor-destaque: #050505;
+}
+
+
+
+
+.text-modal {
+    color: #222423; /* Substitua pelo código da cor desejada */
+}
+
+
+.modal-content-custom {
+    background-color: #4997e6; /* Cor de fundo desejada */
+    
+
+        border-radius: 0.5rem; /* Opcional: arredonda os cantos do modal */
+    
+    
+}
+
+
+
+.img-modal {
+    width: 470px;  
+    height: 200px; 
+    object-fit: cover; 
+   
+        
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px; /* Distância do fundo */
+    right: 20px; /* Distância da direita */
+    z-index: 1000; /* Para garantir que o botão esteja acima de outros elementos */
+    transition: opacity 0.3s ease; /* Animação suave */
+}
+
+
+
+
+  
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: black; /* Fundo da página preto */
+
+    background-image: url('https://wallpaper4k.top/wp-content/uploads/2023/09/spider-man-marvel-superheroes-red-background-marvel-comics-3840x2160-7494-1024x576.jpg');
+    background-size: cover; /* Para cobrir toda a área */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
